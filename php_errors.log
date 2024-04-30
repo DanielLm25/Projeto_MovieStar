@@ -1,0 +1,11 @@
+[30-Apr-2024 18:02:32 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1049] Unknown database 'moviestars' in /var/www/html/Projeto_MovieStar/db.php:9
+Stack trace:
+#0 /var/www/html/Projeto_MovieStar/db.php(9): PDO->__construct()
+#1 /var/www/html/Projeto_MovieStar/index.php(4): require_once('...')
+#2 {main}
+  thrown in /var/www/html/Projeto_MovieStar/db.php on line 9
+[30-Apr-2024 18:28:07 UTC] PHP Warning:  Undefined variable $BASE_URL in /var/www/html/Projeto_MovieStar/index.php on line 8
+[30-Apr-2024 18:28:07 UTC] PHP Warning:  Undefined variable $BASE_URL in /var/www/html/Projeto_MovieStar/index.php on line 11
+[30-Apr-2024 18:28:07 UTC] PHP Warning:  Undefined variable $BASE_URL in /var/www/html/Projeto_MovieStar/index.php on line 19
+[30-Apr-2024 18:28:07 UTC] PHP Warning:  Undefined variable $BASE_URL in /var/www/html/Projeto_MovieStar/index.php on line 20
+[30-Apr-2024 18:28:07 UTC] PHP Warning:  Undefined variable $BASE_URL in /var/www/html/Projeto_MovieStar/index.php on line 37
