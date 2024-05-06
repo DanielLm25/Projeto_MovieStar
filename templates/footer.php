@@ -15,9 +15,10 @@
 
   <div id="footer-links-container">
     <ul>
-      <li><a href="#">Adicionar Filme</a></li>
-      <li><a href="#">Adicionar Crítica</a></li>
-      <li><a href="#">Entrar / Registrar</a></li>
+      <li><a href="#" style="text-decoration: none;">Adicionar Filme</a></li>
+      <li><a href="#" style="text-decoration: none;">Adicionar Crítica</a></li>
+      <li><a href="#" style="text-decoration: none;">Entrar / Registrar</a></li>
+
     </ul>
   </div>
   <p>&copy; 2024 Daniel Lima</p>

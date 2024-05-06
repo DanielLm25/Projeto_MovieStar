@@ -9,3 +9,290 @@ Stack trace:
 [30-Apr-2024 18:28:07 UTC] PHP Warning:  Undefined variable $BASE_URL in /var/www/html/Projeto_MovieStar/index.php on line 19
 [30-Apr-2024 18:28:07 UTC] PHP Warning:  Undefined variable $BASE_URL in /var/www/html/Projeto_MovieStar/index.php on line 20
 [30-Apr-2024 18:28:07 UTC] PHP Warning:  Undefined variable $BASE_URL in /var/www/html/Projeto_MovieStar/index.php on line 37
+[02-May-2024 20:08:26 UTC] PHP Warning:  Undefined variable $userdata in /var/www/html/Projeto_MovieStar/templates/header.php on line 55
+[02-May-2024 20:09:32 UTC] PHP Warning:  Undefined variable $userdata in /var/www/html/Projeto_MovieStar/templates/header.php on line 55
+[02-May-2024 20:09:38 UTC] PHP Warning:  Undefined variable $userdata in /var/www/html/Projeto_MovieStar/templates/header.php on line 55
+[02-May-2024 20:11:05 UTC] PHP Warning:  Undefined variable $userdata in /var/www/html/Projeto_MovieStar/templates/header.php on line 55
+[02-May-2024 20:11:07 UTC] PHP Warning:  Undefined variable $userdata in /var/www/html/Projeto_MovieStar/templates/header.php on line 55
+[02-May-2024 20:11:07 UTC] PHP Warning:  Undefined variable $userdata in /var/www/html/Projeto_MovieStar/templates/header.php on line 55
+[02-May-2024 20:11:08 UTC] PHP Warning:  Undefined variable $userdata in /var/www/html/Projeto_MovieStar/templates/header.php on line 55
+[02-May-2024 20:11:15 UTC] PHP Warning:  Undefined variable $userdata in /var/www/html/Projeto_MovieStar/templates/header.php on line 55
+[02-May-2024 20:11:25 UTC] PHP Warning:  Undefined variable $userdata in /var/www/html/Projeto_MovieStar/templates/header.php on line 55
+[02-May-2024 20:12:36 UTC] PHP Warning:  Undefined variable $userdata in /var/www/html/Projeto_MovieStar/templates/header.php on line 55
+[02-May-2024 20:12:37 UTC] PHP Warning:  Undefined variable $userdata in /var/www/html/Projeto_MovieStar/templates/header.php on line 55
+[02-May-2024 20:12:37 UTC] PHP Warning:  Undefined variable $userdata in /var/www/html/Projeto_MovieStar/templates/header.php on line 55
+[02-May-2024 20:12:38 UTC] PHP Warning:  Undefined variable $userdata in /var/www/html/Projeto_MovieStar/templates/header.php on line 55
+[02-May-2024 20:12:38 UTC] PHP Warning:  Undefined variable $userdata in /var/www/html/Projeto_MovieStar/templates/header.php on line 55
+[02-May-2024 20:12:38 UTC] PHP Warning:  Undefined variable $userdata in /var/www/html/Projeto_MovieStar/templates/header.php on line 55
+[02-May-2024 20:12:38 UTC] PHP Warning:  Undefined variable $userdata in /var/www/html/Projeto_MovieStar/templates/header.php on line 55
+[02-May-2024 20:12:38 UTC] PHP Warning:  Undefined variable $userdata in /var/www/html/Projeto_MovieStar/templates/header.php on line 55
+[02-May-2024 20:12:38 UTC] PHP Warning:  Undefined variable $userdata in /var/www/html/Projeto_MovieStar/templates/header.php on line 55
+[02-May-2024 20:12:38 UTC] PHP Warning:  Undefined variable $userdata in /var/www/html/Projeto_MovieStar/templates/header.php on line 55
+[02-May-2024 20:13:01 UTC] PHP Warning:  Undefined variable $userdata in /var/www/html/Projeto_MovieStar/templates/header.php on line 55
+[02-May-2024 20:20:29 UTC] PHP Warning:  Undefined variable $userDao in /var/www/html/Projeto_MovieStar/auth_process.php on line 27
+[02-May-2024 20:20:29 UTC] PHP Fatal error:  Uncaught Error: Call to a member function findByEmail() on null in /var/www/html/Projeto_MovieStar/auth_process.php:27
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/Projeto_MovieStar/auth_process.php on line 27
+[02-May-2024 20:21:49 UTC] PHP Warning:  Undefined variable $userDao in /var/www/html/Projeto_MovieStar/auth_process.php on line 27
+[02-May-2024 20:21:49 UTC] PHP Fatal error:  Uncaught Error: Call to a member function findByEmail() on null in /var/www/html/Projeto_MovieStar/auth_process.php:27
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/Projeto_MovieStar/auth_process.php on line 27
+[02-May-2024 20:22:07 UTC] PHP Warning:  Undefined variable $userDao in /var/www/html/Projeto_MovieStar/auth_process.php on line 27
+[02-May-2024 20:22:07 UTC] PHP Fatal error:  Uncaught Error: Call to a member function findByEmail() on null in /var/www/html/Projeto_MovieStar/auth_process.php:27
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/Projeto_MovieStar/auth_process.php on line 27
+[02-May-2024 20:23:30 UTC] PHP Warning:  Undefined variable $userDao in /var/www/html/Projeto_MovieStar/auth_process.php on line 45
+[02-May-2024 20:23:30 UTC] PHP Fatal error:  Uncaught Error: Call to a member function create() on null in /var/www/html/Projeto_MovieStar/auth_process.php:45
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/Projeto_MovieStar/auth_process.php on line 45
+[02-May-2024 20:51:57 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function UserDAO::destroyToken(), 0 passed in /var/www/html/Projeto_MovieStar/logout.php on line 6 and exactly 1 expected in /var/www/html/Projeto_MovieStar/dao/UserDAO.php:140
+Stack trace:
+#0 /var/www/html/Projeto_MovieStar/logout.php(6): UserDAO->destroyToken()
+#1 {main}
+  thrown in /var/www/html/Projeto_MovieStar/dao/UserDAO.php on line 140
+[02-May-2024 21:08:56 UTC] PHP Warning:  require_once(dao/UserDAO.php.php): Failed to open stream: No such file or directory in /var/www/html/Projeto_MovieStar/editprofile.php on line 4
+[02-May-2024 21:08:56 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'dao/UserDAO.php.php' (include_path='.:/usr/share/php') in /var/www/html/Projeto_MovieStar/editprofile.php:4
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/Projeto_MovieStar/editprofile.php on line 4
+[02-May-2024 21:41:04 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE id=?' at line 8 in /var/www/html/Projeto_MovieStar/dao/UserDAO.php:67
+Stack trace:
+#0 /var/www/html/Projeto_MovieStar/dao/UserDAO.php(67): PDO->prepare()
+#1 /var/www/html/Projeto_MovieStar/dao/UserDAO.php(137): UserDAO->update()
+#2 /var/www/html/Projeto_MovieStar/auth_process.php(69): UserDAO->authenticateUser()
+#3 {main}
+  thrown in /var/www/html/Projeto_MovieStar/dao/UserDAO.php on line 67
+[02-May-2024 22:10:12 UTC] PHP Warning:  Undefined variable $user in /var/www/html/Projeto_MovieStar/models/User.php on line 16
+[02-May-2024 22:10:12 UTC] PHP Warning:  Attempt to read property "name" on null in /var/www/html/Projeto_MovieStar/models/User.php on line 16
+[02-May-2024 22:10:12 UTC] PHP Warning:  Undefined variable $user in /var/www/html/Projeto_MovieStar/models/User.php on line 16
+[02-May-2024 22:10:12 UTC] PHP Warning:  Attempt to read property "lastname" on null in /var/www/html/Projeto_MovieStar/models/User.php on line 16
+[02-May-2024 22:24:11 UTC] PHP Fatal error:  Uncaught Error: Attempt to assign property "image" on null in /var/www/html/Projeto_MovieStar/editprofile.php:15
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/Projeto_MovieStar/editprofile.php on line 15
+[02-May-2024 22:26:47 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function User::getFullName(), 0 passed in /var/www/html/Projeto_MovieStar/editprofile.php on line 11 and exactly 1 expected in /var/www/html/Projeto_MovieStar/models/User.php:14
+Stack trace:
+#0 /var/www/html/Projeto_MovieStar/editprofile.php(11): User->getFullName()
+#1 {main}
+  thrown in /var/www/html/Projeto_MovieStar/models/User.php on line 14
+[02-May-2024 23:28:49 UTC] PHP Warning:  Undefined array key "IAMGE" in /var/www/html/Projeto_MovieStar/user_process.php on line 36
+[02-May-2024 23:28:49 UTC] PHP Warning:  Trying to access array offset on null in /var/www/html/Projeto_MovieStar/user_process.php on line 40
+[02-May-2024 23:28:49 UTC] PHP Warning:  Undefined variable $imagetypes in /var/www/html/Projeto_MovieStar/user_process.php on line 40
+[02-May-2024 23:28:49 UTC] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given in /var/www/html/Projeto_MovieStar/user_process.php:40
+Stack trace:
+#0 /var/www/html/Projeto_MovieStar/user_process.php(40): in_array()
+#1 {main}
+  thrown in /var/www/html/Projeto_MovieStar/user_process.php on line 40
+[02-May-2024 23:30:12 UTC] PHP Warning:  Undefined array key "IMAGE" in /var/www/html/Projeto_MovieStar/user_process.php on line 36
+[02-May-2024 23:30:12 UTC] PHP Warning:  Trying to access array offset on null in /var/www/html/Projeto_MovieStar/user_process.php on line 40
+[02-May-2024 23:30:25 UTC] PHP Warning:  Undefined array key "IMAGE" in /var/www/html/Projeto_MovieStar/user_process.php on line 36
+[02-May-2024 23:30:25 UTC] PHP Warning:  Trying to access array offset on null in /var/www/html/Projeto_MovieStar/user_process.php on line 40
+[02-May-2024 23:43:57 UTC] PHP Warning:  Undefined variable $finalPassword in /var/www/html/Projeto_MovieStar/user_process.php on line 72
+[02-May-2024 23:45:02 UTC] PHP Warning:  Undefined variable $finalPassword in /var/www/html/Projeto_MovieStar/user_process.php on line 72
+[03-May-2024 17:00:32 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?, ?,?,?,?,?,?)VALUES(title, description,image,trailer,category,length,users_id)' at line 1 in /var/www/html/Projeto_MovieStar/dao/MovieDAO.php:59
+Stack trace:
+#0 /var/www/html/Projeto_MovieStar/dao/MovieDAO.php(59): PDO->prepare()
+#1 /var/www/html/Projeto_MovieStar/movie_process.php(61): MovieDAO->create()
+#2 {main}
+  thrown in /var/www/html/Projeto_MovieStar/dao/MovieDAO.php on line 59
+[03-May-2024 17:03:14 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'trailer' at row 1 in /var/www/html/Projeto_MovieStar/dao/MovieDAO.php:67
+Stack trace:
+#0 /var/www/html/Projeto_MovieStar/dao/MovieDAO.php(67): PDOStatement->execute()
+#1 /var/www/html/Projeto_MovieStar/movie_process.php(61): MovieDAO->create()
+#2 {main}
+  thrown in /var/www/html/Projeto_MovieStar/dao/MovieDAO.php on line 67
+[03-May-2024 17:06:45 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'trailer' at row 1 in /var/www/html/Projeto_MovieStar/dao/MovieDAO.php:67
+Stack trace:
+#0 /var/www/html/Projeto_MovieStar/dao/MovieDAO.php(67): PDOStatement->execute()
+#1 /var/www/html/Projeto_MovieStar/movie_process.php(61): MovieDAO->create()
+#2 {main}
+  thrown in /var/www/html/Projeto_MovieStar/dao/MovieDAO.php on line 67
+[03-May-2024 18:11:33 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number in /var/www/html/Projeto_MovieStar/dao/MovieDAO.php:64
+Stack trace:
+#0 /var/www/html/Projeto_MovieStar/dao/MovieDAO.php(64): PDO->query()
+#1 /var/www/html/Projeto_MovieStar/index.php(9): MovieDAO->getMoviesByCategory()
+#2 {main}
+  thrown in /var/www/html/Projeto_MovieStar/dao/MovieDAO.php on line 64
+[03-May-2024 19:59:27 UTC] PHP Warning:  Attempt to read property "id" on null in /var/www/html/Projeto_MovieStar/dashboard.php on line 17
+[03-May-2024 22:53:42 UTC] PHP Warning:  Undefined variable $user in /var/www/html/Projeto_MovieStar/editprofile.php on line 12
+[03-May-2024 22:53:42 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getFullName() on null in /var/www/html/Projeto_MovieStar/editprofile.php:12
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/Projeto_MovieStar/editprofile.php on line 12
+[03-May-2024 22:54:59 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function User::getFullName(), 0 passed in /var/www/html/Projeto_MovieStar/editprofile.php on line 29 and exactly 1 expected in /var/www/html/Projeto_MovieStar/models/User.php:14
+Stack trace:
+#0 /var/www/html/Projeto_MovieStar/editprofile.php(29): User->getFullName()
+#1 {main}
+  thrown in /var/www/html/Projeto_MovieStar/models/User.php on line 14
+[03-May-2024 23:01:03 UTC] PHP Warning:  Undefined variable $userId in /var/www/html/Projeto_MovieStar/movie.php on line 95
+[03-May-2024 23:01:03 UTC] PHP Warning:  Undefined variable $userName in /var/www/html/Projeto_MovieStar/movie.php on line 95
+[03-May-2024 23:54:27 UTC] PHP Warning:  Undefined variable $reviewDAO in /var/www/html/Projeto_MovieStar/movie.php on line 41
+[03-May-2024 23:54:27 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getMoviesReview() on null in /var/www/html/Projeto_MovieStar/movie.php:41
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/Projeto_MovieStar/movie.php on line 41
+[04-May-2024 00:13:03 UTC] PHP Warning:  include_once(dao/userDAO.php): Failed to open stream: No such file or directory in /var/www/html/Projeto_MovieStar/dao/ReviewDAO.php on line 7
+[04-May-2024 00:13:03 UTC] PHP Warning:  include_once(): Failed opening 'dao/userDAO.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/Projeto_MovieStar/dao/ReviewDAO.php on line 7
+[04-May-2024 00:13:03 UTC] PHP Warning:  Undefined variable $reviewDAO in /var/www/html/Projeto_MovieStar/movie.php on line 41
+[04-May-2024 00:13:03 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getMoviesReview() on null in /var/www/html/Projeto_MovieStar/movie.php:41
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/Projeto_MovieStar/movie.php on line 41
+[04-May-2024 00:15:51 UTC] PHP Warning:  Undefined variable $reviewDAO in /var/www/html/Projeto_MovieStar/movie.php on line 41
+[04-May-2024 00:15:51 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getMoviesReview() on null in /var/www/html/Projeto_MovieStar/movie.php:41
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/Projeto_MovieStar/movie.php on line 41
+[04-May-2024 00:19:57 UTC] PHP Warning:  Undefined variable $reviewDAO in /var/www/html/Projeto_MovieStar/movie.php on line 41
+[04-May-2024 00:19:57 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getMoviesReview() on null in /var/www/html/Projeto_MovieStar/movie.php:41
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/Projeto_MovieStar/movie.php on line 41
+[04-May-2024 00:19:58 UTC] PHP Warning:  Undefined variable $reviewDAO in /var/www/html/Projeto_MovieStar/movie.php on line 41
+[04-May-2024 00:19:58 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getMoviesReview() on null in /var/www/html/Projeto_MovieStar/movie.php:41
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/Projeto_MovieStar/movie.php on line 41
+[04-May-2024 00:22:10 UTC] PHP Warning:  Undefined variable $reviewDAO in /var/www/html/Projeto_MovieStar/movie.php on line 40
+[04-May-2024 00:22:10 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getMoviesReview() on null in /var/www/html/Projeto_MovieStar/movie.php:40
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/Projeto_MovieStar/movie.php on line 40
+[04-May-2024 00:22:10 UTC] PHP Warning:  Undefined variable $reviewDAO in /var/www/html/Projeto_MovieStar/movie.php on line 40
+[04-May-2024 00:22:10 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getMoviesReview() on null in /var/www/html/Projeto_MovieStar/movie.php:40
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/Projeto_MovieStar/movie.php on line 40
+[04-May-2024 00:22:12 UTC] PHP Warning:  Undefined variable $reviewDAO in /var/www/html/Projeto_MovieStar/movie.php on line 40
+[04-May-2024 00:22:12 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getMoviesReview() on null in /var/www/html/Projeto_MovieStar/movie.php:40
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/Projeto_MovieStar/movie.php on line 40
+[04-May-2024 00:53:28 UTC] PHP Warning:  Undefined variable $reviewsDao in /var/www/html/Projeto_MovieStar/movie.php on line 39
+[04-May-2024 00:53:28 UTC] PHP Fatal error:  Uncaught Error: Call to a member function hesAlreadyReviewed() on null in /var/www/html/Projeto_MovieStar/movie.php:39
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/Projeto_MovieStar/movie.php on line 39
+[04-May-2024 00:55:51 UTC] PHP Warning:  Undefined variable $userId in /var/www/html/Projeto_MovieStar/templates/user_review.php on line 21
+[04-May-2024 17:26:43 UTC] PHP Warning:  Attempt to read property "id" on null in /var/www/html/Projeto_MovieStar/profile.php on line 18
+[04-May-2024 17:26:43 UTC] PHP Warning:  Attempt to read property "name" on null in /var/www/html/Projeto_MovieStar/models/User.php on line 16
+[04-May-2024 17:26:43 UTC] PHP Warning:  Attempt to read property "lastname" on null in /var/www/html/Projeto_MovieStar/models/User.php on line 16
+[04-May-2024 17:26:43 UTC] PHP Fatal error:  Uncaught Error: Attempt to assign property "image" on null in /var/www/html/Projeto_MovieStar/profile.php:33
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/Projeto_MovieStar/profile.php on line 33
+[04-May-2024 17:26:46 UTC] PHP Warning:  Attempt to read property "id" on null in /var/www/html/Projeto_MovieStar/profile.php on line 18
+[04-May-2024 17:26:46 UTC] PHP Warning:  Attempt to read property "name" on null in /var/www/html/Projeto_MovieStar/models/User.php on line 16
+[04-May-2024 17:26:46 UTC] PHP Warning:  Attempt to read property "lastname" on null in /var/www/html/Projeto_MovieStar/models/User.php on line 16
+[04-May-2024 17:26:46 UTC] PHP Fatal error:  Uncaught Error: Attempt to assign property "image" on null in /var/www/html/Projeto_MovieStar/profile.php:33
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/Projeto_MovieStar/profile.php on line 33
+[04-May-2024 17:29:36 UTC] PHP Warning:  Undefined variable $userId in /var/www/html/Projeto_MovieStar/templates/user_review.php on line 21
+[04-May-2024 17:41:22 UTC] PHP Warning:  Undefined variable $userId in /var/www/html/Projeto_MovieStar/templates/user_review.php on line 21
+[04-May-2024 17:42:06 UTC] PHP Warning:  Undefined variable $userId in /var/www/html/Projeto_MovieStar/templates/user_review.php on line 21
+[06-May-2024 15:00:53 UTC] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /var/www/html/Projeto_MovieStar/movie.php:19
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/Projeto_MovieStar/movie.php on line 19
+[06-May-2024 15:01:14 UTC] PHP Warning:  Undefined variable $userId in /var/www/html/Projeto_MovieStar/templates/user_review.php on line 21
+[06-May-2024 15:02:04 UTC] PHP Warning:  Undefined variable $userId in /var/www/html/Projeto_MovieStar/templates/user_review.php on line 21
+[06-May-2024 15:02:23 UTC] PHP Warning:  Undefined variable $userId in /var/www/html/Projeto_MovieStar/templates/user_review.php on line 21
+[06-May-2024 15:02:38 UTC] PHP Warning:  Undefined variable $userId in /var/www/html/Projeto_MovieStar/templates/user_review.php on line 21
+[06-May-2024 15:02:48 UTC] PHP Warning:  Undefined variable $userId in /var/www/html/Projeto_MovieStar/templates/user_review.php on line 21
+[06-May-2024 15:05:44 UTC] PHP Warning:  Undefined variable $userId in /var/www/html/Projeto_MovieStar/templates/user_review.php on line 21
+[06-May-2024 15:06:16 UTC] PHP Warning:  Undefined variable $userId in /var/www/html/Projeto_MovieStar/templates/user_review.php on line 21
+[06-May-2024 15:06:36 UTC] PHP Warning:  Undefined variable $userId in /var/www/html/Projeto_MovieStar/templates/user_review.php on line 21
+[06-May-2024 15:06:36 UTC] PHP Warning:  Undefined variable $userId in /var/www/html/Projeto_MovieStar/templates/user_review.php on line 21
+[06-May-2024 15:14:45 UTC] PHP Warning:  Undefined variable $userId in /var/www/html/Projeto_MovieStar/templates/user_review.php on line 21
+[06-May-2024 15:14:45 UTC] PHP Warning:  Undefined variable $userId in /var/www/html/Projeto_MovieStar/templates/user_review.php on line 21
+[06-May-2024 15:14:55 UTC] PHP Warning:  Undefined variable $userId in /var/www/html/Projeto_MovieStar/templates/user_review.php on line 21
+[06-May-2024 17:23:20 UTC] PHP Warning:  Undefined variable $userId in /var/www/html/Projeto_MovieStar/templates/user_review.php on line 21
+[06-May-2024 17:47:34 UTC] PHP Warning:  Undefined variable $movie in /var/www/html/Projeto_MovieStar/movie.php on line 35
+[06-May-2024 17:47:34 UTC] PHP Warning:  Attempt to read property "users_id" on null in /var/www/html/Projeto_MovieStar/movie.php on line 35
+[06-May-2024 17:47:34 UTC] PHP Warning:  Undefined variable $movie in /var/www/html/Projeto_MovieStar/movie.php on line 56
+[06-May-2024 17:47:34 UTC] PHP Warning:  Attempt to read property "title" on null in /var/www/html/Projeto_MovieStar/movie.php on line 56
+[06-May-2024 17:47:34 UTC] PHP Warning:  Undefined variable $movie in /var/www/html/Projeto_MovieStar/movie.php on line 58
+[06-May-2024 17:47:34 UTC] PHP Warning:  Attempt to read property "length" on null in /var/www/html/Projeto_MovieStar/movie.php on line 58
+[06-May-2024 17:47:34 UTC] PHP Warning:  Undefined variable $movie in /var/www/html/Projeto_MovieStar/movie.php on line 60
+[06-May-2024 17:47:34 UTC] PHP Warning:  Attempt to read property "category" on null in /var/www/html/Projeto_MovieStar/movie.php on line 60
+[06-May-2024 17:47:34 UTC] PHP Warning:  Undefined variable $movie in /var/www/html/Projeto_MovieStar/movie.php on line 62
+[06-May-2024 17:47:34 UTC] PHP Warning:  Attempt to read property "rating" on null in /var/www/html/Projeto_MovieStar/movie.php on line 62
+[06-May-2024 17:47:34 UTC] PHP Warning:  Undefined variable $movie in /var/www/html/Projeto_MovieStar/movie.php on line 64
+[06-May-2024 17:47:34 UTC] PHP Warning:  Attempt to read property "trailer" on null in /var/www/html/Projeto_MovieStar/movie.php on line 64
+[06-May-2024 17:47:34 UTC] PHP Warning:  Undefined variable $movie in /var/www/html/Projeto_MovieStar/movie.php on line 65
+[06-May-2024 17:47:34 UTC] PHP Warning:  Attempt to read property "description" on null in /var/www/html/Projeto_MovieStar/movie.php on line 65
+[06-May-2024 17:47:34 UTC] PHP Warning:  Undefined variable $movie in /var/www/html/Projeto_MovieStar/movie.php on line 83
+[06-May-2024 17:47:34 UTC] PHP Warning:  Attempt to read property "id" on null in /var/www/html/Projeto_MovieStar/movie.php on line 83
+[06-May-2024 18:05:44 UTC] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /var/www/html/Projeto_MovieStar/search.php:15
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/Projeto_MovieStar/search.php on line 15
+[06-May-2024 18:06:02 UTC] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /var/www/html/Projeto_MovieStar/search.php:17
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/Projeto_MovieStar/search.php on line 17
+[06-May-2024 18:06:19 UTC] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /var/www/html/Projeto_MovieStar/search.php:19
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/Projeto_MovieStar/search.php on line 19
+[06-May-2024 18:26:02 UTC] PHP Warning:  Undefined variable $BASE_URL in /var/www/html/Projeto_MovieStar/templates/header.php on line 8
+[06-May-2024 18:26:02 UTC] PHP Warning:  Undefined variable $BASE_URL in /var/www/html/Projeto_MovieStar/templates/header.php on line 11
+[06-May-2024 18:26:02 UTC] PHP Warning:  Undefined variable $BASE_URL in /var/www/html/Projeto_MovieStar/templates/header.php on line 19
+[06-May-2024 18:26:02 UTC] PHP Warning:  Undefined variable $BASE_URL in /var/www/html/Projeto_MovieStar/templates/header.php on line 20
+[06-May-2024 18:26:02 UTC] PHP Warning:  Undefined variable $BASE_URL in /var/www/html/Projeto_MovieStar/templates/header.php on line 28
+[06-May-2024 18:26:02 UTC] PHP Warning:  Undefined variable $userData in /var/www/html/Projeto_MovieStar/templates/header.php on line 37
+[06-May-2024 18:26:02 UTC] PHP Warning:  Undefined variable $BASE_URL in /var/www/html/Projeto_MovieStar/templates/header.php on line 54
+[06-May-2024 18:26:02 UTC] PHP Warning:  Undefined variable $conn in /var/www/html/Projeto_MovieStar/index.php on line 6
+[06-May-2024 18:26:02 UTC] PHP Warning:  Undefined variable $BASE_URL in /var/www/html/Projeto_MovieStar/index.php on line 6
+[06-May-2024 18:26:02 UTC] PHP Fatal error:  Uncaught TypeError: MovieDAO::__construct(): Argument #1 ($conn) must be of type PDO, null given, called in /var/www/html/Projeto_MovieStar/index.php on line 6 and defined in /var/www/html/Projeto_MovieStar/dao/MovieDAO.php:15
+Stack trace:
+#0 /var/www/html/Projeto_MovieStar/index.php(6): MovieDAO->__construct()
+#1 {main}
+  thrown in /var/www/html/Projeto_MovieStar/dao/MovieDAO.php on line 15
+[06-May-2024 18:26:09 UTC] PHP Warning:  Undefined variable $BASE_URL in /var/www/html/Projeto_MovieStar/templates/header.php on line 8
+[06-May-2024 18:26:09 UTC] PHP Warning:  Undefined variable $BASE_URL in /var/www/html/Projeto_MovieStar/templates/header.php on line 11
+[06-May-2024 18:26:09 UTC] PHP Warning:  Undefined variable $BASE_URL in /var/www/html/Projeto_MovieStar/templates/header.php on line 19
+[06-May-2024 18:26:09 UTC] PHP Warning:  Undefined variable $BASE_URL in /var/www/html/Projeto_MovieStar/templates/header.php on line 20
+[06-May-2024 18:26:09 UTC] PHP Warning:  Undefined variable $BASE_URL in /var/www/html/Projeto_MovieStar/templates/header.php on line 28
+[06-May-2024 18:26:09 UTC] PHP Warning:  Undefined variable $userData in /var/www/html/Projeto_MovieStar/templates/header.php on line 37
+[06-May-2024 18:26:09 UTC] PHP Warning:  Undefined variable $BASE_URL in /var/www/html/Projeto_MovieStar/templates/header.php on line 54
+[06-May-2024 18:26:09 UTC] PHP Warning:  Undefined variable $conn in /var/www/html/Projeto_MovieStar/index.php on line 6
+[06-May-2024 18:26:09 UTC] PHP Warning:  Undefined variable $BASE_URL in /var/www/html/Projeto_MovieStar/index.php on line 6
+[06-May-2024 18:26:09 UTC] PHP Fatal error:  Uncaught TypeError: MovieDAO::__construct(): Argument #1 ($conn) must be of type PDO, null given, called in /var/www/html/Projeto_MovieStar/index.php on line 6 and defined in /var/www/html/Projeto_MovieStar/dao/MovieDAO.php:15
+Stack trace:
+#0 /var/www/html/Projeto_MovieStar/index.php(6): MovieDAO->__construct()
+#1 {main}
+  thrown in /var/www/html/Projeto_MovieStar/dao/MovieDAO.php on line 15
+[06-May-2024 18:26:09 UTC] PHP Warning:  Undefined variable $BASE_URL in /var/www/html/Projeto_MovieStar/templates/header.php on line 8
+[06-May-2024 18:26:09 UTC] PHP Warning:  Undefined variable $BASE_URL in /var/www/html/Projeto_MovieStar/templates/header.php on line 11
+[06-May-2024 18:26:09 UTC] PHP Warning:  Undefined variable $BASE_URL in /var/www/html/Projeto_MovieStar/templates/header.php on line 19
+[06-May-2024 18:26:09 UTC] PHP Warning:  Undefined variable $BASE_URL in /var/www/html/Projeto_MovieStar/templates/header.php on line 20
+[06-May-2024 18:26:09 UTC] PHP Warning:  Undefined variable $BASE_URL in /var/www/html/Projeto_MovieStar/templates/header.php on line 28
+[06-May-2024 18:26:09 UTC] PHP Warning:  Undefined variable $userData in /var/www/html/Projeto_MovieStar/templates/header.php on line 37
+[06-May-2024 18:26:09 UTC] PHP Warning:  Undefined variable $BASE_URL in /var/www/html/Projeto_MovieStar/templates/header.php on line 54
+[06-May-2024 18:26:09 UTC] PHP Warning:  Undefined variable $conn in /var/www/html/Projeto_MovieStar/index.php on line 6
+[06-May-2024 18:26:09 UTC] PHP Warning:  Undefined variable $BASE_URL in /var/www/html/Projeto_MovieStar/index.php on line 6
+[06-May-2024 18:26:09 UTC] PHP Fatal error:  Uncaught TypeError: MovieDAO::__construct(): Argument #1 ($conn) must be of type PDO, null given, called in /var/www/html/Projeto_MovieStar/index.php on line 6 and defined in /var/www/html/Projeto_MovieStar/dao/MovieDAO.php:15
+Stack trace:
+#0 /var/www/html/Projeto_MovieStar/index.php(6): MovieDAO->__construct()
+#1 {main}
+  thrown in /var/www/html/Projeto_MovieStar/dao/MovieDAO.php on line 15
+[06-May-2024 18:34:58 UTC] PHP Warning:  Undefined variable $BASE_URL in /var/www/html/Projeto_MovieStar/templates/header.php on line 8
+[06-May-2024 18:34:58 UTC] PHP Warning:  Undefined variable $BASE_URL in /var/www/html/Projeto_MovieStar/templates/header.php on line 11
+[06-May-2024 18:34:58 UTC] PHP Warning:  Undefined variable $BASE_URL in /var/www/html/Projeto_MovieStar/templates/header.php on line 26
+[06-May-2024 18:34:58 UTC] PHP Warning:  Undefined variable $BASE_URL in /var/www/html/Projeto_MovieStar/templates/header.php on line 27
+[06-May-2024 18:34:58 UTC] PHP Warning:  Undefined variable $BASE_URL in /var/www/html/Projeto_MovieStar/templates/header.php on line 35
+[06-May-2024 18:34:58 UTC] PHP Warning:  Undefined variable $userData in /var/www/html/Projeto_MovieStar/templates/header.php on line 44
+[06-May-2024 18:34:58 UTC] PHP Warning:  Undefined variable $BASE_URL in /var/www/html/Projeto_MovieStar/templates/header.php on line 61
+[06-May-2024 18:34:58 UTC] PHP Warning:  Undefined variable $conn in /var/www/html/Projeto_MovieStar/index.php on line 6
+[06-May-2024 18:34:58 UTC] PHP Warning:  Undefined variable $BASE_URL in /var/www/html/Projeto_MovieStar/index.php on line 6
+[06-May-2024 18:34:58 UTC] PHP Fatal error:  Uncaught TypeError: MovieDAO::__construct(): Argument #1 ($conn) must be of type PDO, null given, called in /var/www/html/Projeto_MovieStar/index.php on line 6 and defined in /var/www/html/Projeto_MovieStar/dao/MovieDAO.php:15
+Stack trace:
+#0 /var/www/html/Projeto_MovieStar/index.php(6): MovieDAO->__construct()
+#1 {main}
+  thrown in /var/www/html/Projeto_MovieStar/dao/MovieDAO.php on line 15
